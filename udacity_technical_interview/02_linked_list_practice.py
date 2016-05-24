@@ -59,11 +59,16 @@ class LinkedList(object):
         Inserting at position 3 means between
         the 2nd and 3rd elements."""
         
-        if self.get_position(position): ## if the position exists
-            current = new_element
-            ## link after element first in case lose the relationship
-            current.next = self.get_position(position)
-            self.get_position(position-1).next = current ## link before element
+        if position == 1:
+            new_element.next = self.head
+            self.head = new_element
+            
+        else:
+            if self.get_position(position): ## if the position exists
+                current = new_element
+                ## link after element first in case lose the relationship
+                current.next = self.get_position(position)
+                self.get_position(position-1).next = current ## link before element
 
     
     
