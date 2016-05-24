@@ -1,4 +1,4 @@
-#Courses I have taken/am taking
+#Courses
 
 * [Northwestern MSiA - Deep Learning](MSiA_deep_learning)
 * [Udacity - Technical Interview](udacity_technical_interview)
