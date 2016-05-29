@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sat May 28 20:04:39 2016
+Created on Sat May 28
 
-@author: apple
+@author: Xiang Li
 """
 
 """Write a HashTable class that stores strings
