@@ -29,9 +29,10 @@ class HashTable(object):
         hash_value = self.calculate_hash_value(string)
         
         if self.table[hash_value]:
-            return hash_value
-        else:
-            return -1
+            if string in self.table[hash_value]:
+                return hash_value
+
+        return -1
 
     def calculate_hash_value(self, string):
         """Helper function to calulate a
