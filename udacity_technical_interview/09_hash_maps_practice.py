@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sat May 28 20:04:39 2016
+Created on Sat May 28
 
-@author: apple
+@author: Xiang Li
 """
 
 """Write a HashTable class that stores strings
@@ -29,9 +29,10 @@ class HashTable(object):
         hash_value = self.calculate_hash_value(string)
         
         if self.table[hash_value]:
-            return hash_value
-        else:
-            return -1
+            if string in self.table[hash_value]:
+                return hash_value
+
+        return -1
 
     def calculate_hash_value(self, string):
         """Helper function to calulate a
