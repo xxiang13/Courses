@@ -17,20 +17,24 @@ class BST(object):
 
     def insert(self, new_val):
         start = self.root
-        while start:
+        Done = False
+        
+        while start and not Done:
             if start.value < new_val:
                 if start.right is None:
                     start.right = Node(new_val)
-                    return None
+                    Done = True
                 else:
                     start = start.right
                     
             elif start.value > new_val:
                 if start.left is None:
                     start.left = Node(new_val)
-                    return None
+                    Done = True
                 else:
                     start = start.left
+            else:
+                start = start.left
 
 
     def search(self, find_val):
