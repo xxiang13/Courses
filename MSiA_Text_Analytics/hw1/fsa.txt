@@ -1,0 +1,10 @@
+1. ab
+2. aba
+3. abab
+4. abaab
+5. abaaba
+6. abaabaab
+7. ababaab
+8. abaabaab
+9. abaabaab
+10.abaabaaba

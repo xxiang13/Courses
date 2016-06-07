@@ -1,0 +1,91 @@
+Car	Country	Y	Horsepower
+Acura Integra	Japan	12.1	130
+Eagle Summit	USA	6.949	92
+Ford Escort	USA	7.976	88
+Ford Festiva	Other	6.62	63
+Geo Metro	Japan	6.795	55
+Geo Prizm	USA	9.68	102
+Honda Civic	Japan	6.995	92
+Hyundai Excel	Other	6.275	81
+Mazda 323	Japan	6.899	82
+Nissan Sentra	Japan	8.29	110
+Dodge Shadow	USA	7.699	150
+Pontiac Lemans	Other	7.574	74
+Saturn	USA	11.775	85
+Subaru Justy	Japan	5.995	66
+Subaru Loyale	Japan	9.499	90
+Toyota Tercel	Japan	6.488	82
+Volkswagon Fox	Other	7.225	81
+Volkswagon Golf	Other	9.055	100
+Volkswagon Jetta	Germany	10.385	134
+Chevrolet Camaro	USA	12.18	140
+Dodge Daytona	USA	10.5	100
+Dodge Stealth	Japan	16.293	164
+Ford Mustang	USA	10.157	105
+Ford Probe	USA	11.691	110
+Geo Storm	Japan	10.67	95
+Honda Crx	USA	9.59	108
+Honda Prelude	Japan	15.095	140
+Hyundai Scoupe	Other	8.395	81
+Isuzu Impulse	Japan	12.049	130
+Mazda Miata	Japan	14.2	116
+Mazda RX-7	Japan	19.75	160
+Mitsubishi Eclipse	USA	10.864	92
+Subaru XT	Japan	13.438	97
+Toyota Celica	Japan	12.698	130
+Toyota MR2	Japan	15.148	130
+Toyota Supra	Japan	23.82	200
+Volkswagon Corrado	Germany	18.675	158
+Audi 80/90	Germany	20.2	130
+BMW 3 Series	Germany	21.5	168
+Chevrolet Beretta	USA	10.365	95
+Chevrolet Cavalier	USA	9.065	95
+Chysler Le Baron	USA	12.995	141
+Dodge Spirit	USA	10.976	100
+Ford Tempo	USA	8.306	98
+Honda Accord	Japan	12.525	125
+Infiniti G20	Japan	17.75	140
+Lexus ES250	Japan	21.5	156
+Mazda 626	Japan	12.529	110
+Mercedes 626	Germany	28.05	130
+Mitsubishi Galant	Japan	10.999	102
+Nissan Stanza	Japan	12.38	138
+Oldsmoblile Calais	USA	10.295	110
+Peugot 405	Other	15.3	110
+Saab 900	Other	18.295	140
+Subaru Legacy	Japan	12.599	130
+Toyota Camry	Japan	12.198	115
+Volswagan Passat	Germany	15.24	134
+Volvo 240	Other	19.3	114
+Acura Legend	Japan	26.8	200
+Audi 100/200	Germany	28.15	130
+BMW 5 Series	Germany	34.5	208
+Buick Century	USA	13.785	110
+Cadillac Eldorado	USA	31.495	200
+Cadillac Seville	USA	34.195	200
+Chevrolet Lumina	USA	12.67	140
+Chrysler New Yorker	USA	17.971	147
+Eagle Premier	USA	15.051	150
+Ford Taurus	USA	13.352	140
+Ford Thunderbird	USA	15.318	140
+Hyundai Sonata	Other	10.7	116
+Infiniti M30	Japan	24.5	162
+Infiniti Q45	Japan	40	278
+Lexus ls400	Japan	39	250
+Lincoln Continental	USA	32.12	155
+Lincoln Mark VII	USA	30.362	225
+Mazda 929	Japan	23.5	158
+Nissan Maxima	Japan	19.375	160
+Oldsmobile Cutlass	USA	16.895	110
+Saab 9000	Other	28.995	150
+Sterling 827	Other	26.5	160
+Toyota Cressida	Japan	22.698	190
+Volvo 740	Other	22.755	114
+Buick Le Sabre	USA	17.18	165
+Caddillac Brougham	USA	30.455	170
+Cadillac De Ville	USA	30.455	200
+Chevrolet Caprice	USA	16.515	170
+Ford Ltd Crown Vict	USA	18.863	150
+Lincoln Town Car	USA	29.458	190
+Nissan 240SX	Japan	14.095	155
+Nissan 300ZX	Japan	28.175	222

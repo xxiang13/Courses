@@ -1,0 +1,1 @@
+Pattern 1\b(?:(?:(?:[Jj]an)(?:uary)?|(?:[Ff]eb)(?:ruary)?|(?:[Mm]ar)(?:ch)?|(?:[aA]pr)(?:il)?|(?:[mM]ay)|(?:[jJ]une)|(?:[jJ]uly)|(?:[aA]ug)(?:ust)?|(?:[sS]ep)(?:tember)?|(?:[oO]ct)(?:ober)?|(?:[nN]ov|[dD]ec)(?:ember)?))Pattern 2\b(?:(?:[fF]all|[sS]pring|[sS]ummer|[wW]inter)|[iI]n)Pattern3[/.-]? [0-9]{4}
