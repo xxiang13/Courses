@@ -7,3 +7,4 @@
 * [Udacity - Technical Interview](udacity_technical_interview)
 * [edx - Berkely Introduction to Apache Spark](Berkely_Introduction_to_Apache_Spark)
 * [edx - JavaScript, HTML, CSS, Web Development](Microsoft_JavaScript_HTML_CSS_Web Development)
+* [edx - Mit Introduction to Computer Science and Programming Using Python](MITx_Intro_to_CS_Programming)
