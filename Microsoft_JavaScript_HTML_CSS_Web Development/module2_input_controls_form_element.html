@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>HTML Page</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"> <!--use css structure and format this form elements of this easy-to-view,-->
+    </head>
+    <body>
+        <form> 
+        <fieldset> <!-- create section -->
+            <legend>Text Data</legend>
+          First Name:<br />
+          <input type="text" name="firstName" value="" placeholder="Enter your First Name here" /><br /> <!--name is the variable name of the input; value='' default value-->
+          Last Name:<br />
+          <input type="text" name="lastName" value="" placeholder="Enter your Last Name here" /><br />
+        </fieldset>
+        <fieldset>
+            <legend>Numeric Data</legend>
+          Age:<br />
+          <input type="range" name="age" min="0" max="100" value="25" /><br />
+          <br />
+        </fieldset>
+          <input type="submit" value="Click Me to Submit" />
+        </form>
+    </body>
+</html>

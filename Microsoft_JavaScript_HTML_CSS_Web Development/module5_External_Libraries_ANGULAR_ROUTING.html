@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>HTML Page</title>
+        <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular-route.min.js"></script>
+        <script src="js/app2.js"></script>
+    </head>
+    <body ng-app="navigationApp">
+        <div ng-view></div>
+        <script type="text/ng-template" id="list.html">
+            <a href="#">Back Home</a>
+            <h2>The Journey</h2>
+            <p>Click on a destination to view more details:</p>
+            <table>
+                <thead>
+                    <th>ID</th>
+                    <th>ICON</th>
+                    <th>LINK</th>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="item in items">
+                        <th>{{item.id}}</th>
+                        <td>
+                            <img src="{{item.icon}}" alt="{{item.title}}" height="20" />
+                        </td>
+                        <td>
+                            <a href="#detail/{{item.id}}">{{item.title}}</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </script>
+        <script type="text/ng-template" id="detail.html">
+            <a href="#list">Back to List</a>
+            <h2>{{item.title}}</h2>
+            <img src="{{item.icon}}" alt="{{item.title}}" />
+            <p>{{item.description}}</p>
+        </script>
+        <script type="text/ng-template" id="home.html">
+            <h2>Learn About Your New Career!</h2>
+            <p>Click Below to get started</p>
+            <a href="#list">List of Career Steps</a>
+        </script>
+    </body>
+</html>

@@ -1,0 +1,22 @@
+@font-face {
+font-family: Caveat;
+src: url('../fonts/caveat.ttf') format('truetype');
+font-weight: bold;
+}
+
+body {
+font-family: Caveat;
+}
+
+@font-face {
+font-family: Chonburi;
+src: url('../fonts/chonburi.ttf') format('truetype'); /*import external font style sheet */
+}
+
+body {
+font-family: Chonburi;
+}
+
+/*body {
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}*/

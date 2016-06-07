@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang = "en-US">
+	<head>
+		<title> HTML Page </title>
+		<script src="https://code.jquery.com/jquery-2.2.2.min.js"></script>
+
+		<!--
+		<link rel = "stylesheet" href = "css/style11.css" />
+		<script src="js/script14.js"></script>
+		-->
+
+		<link rel = "stylesheet" href="libs/node_modules/remodal/dist/remodal.css" />
+		<script src = "libs/node_modules/remodal/dist/remodal.js"> </script>
+		
+	</head>
+
+	<body>
+		<!-- Modals are hidden by default, so add a button -->
+		<button data-remodal-target="modal">Show Dialog</button>
+		<div class="remodal" data-remodal-id="modal">
+			<button data-remodal-action="close" class = "remodal-close"> </button>
+			<h1> Modal Dialog </h1>
+			<img src="img/superhero.png" alt="Superhero" />
+			<p> Here is a picture of a Superhero </p>
+			<button data-remodal-action = "cancel" class = "remodal-cancel">Cancel</button>
+			<button data-remodal-action = "confirm" class = "remodal-confirm">OK</button>
+		</div>
+
+	</body>
+</html>

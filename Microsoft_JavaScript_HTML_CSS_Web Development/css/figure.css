@@ -1,0 +1,28 @@
+figure {
+    border: 1px solid #990100;
+    background-color: #F6F6F6;
+    display: flex;
+    flex-direction: lr;
+    width: 500px;
+}
+figure > img {
+    flex-index: 1;
+    width: 200px;
+}
+figure > figcaption::before {
+    content: "\002607\0000a0caption\A";
+    white-space: pre;
+    font-style: italic;
+    font-variant: small-caps;
+    font-size: 0.5em;
+}
+figure > figcaption {
+    flex-index: 2;
+    width: 100%;
+    padding: 10px;
+    color: #333333;
+    background-color: #E8E8E8;
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

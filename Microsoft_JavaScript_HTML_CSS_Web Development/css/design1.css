@@ -1,0 +1,40 @@
+section, header, footer {
+    margin: 20px;
+    border: 1px black solid;
+    padding: 10px;
+    min-height: 60px;
+}
+
+.grayBackground {
+    background-color: #F0F2F1;
+}
+
+.tanBackground {
+    background-color: #D4C0A7;
+}
+
+.purpleBackground {
+    background-color: #B2A4A1;
+}
+
+header.purpleBackground { /*style elements in header which has purpleBackground class*/
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+
+}
+
+.steven {
+    font-weight: bold;
+    font-size: 1em;
+    text-align: center;
+
+}
+
+header.purpleBackground > h1 { /* only specify style of h1 (child) of header */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section.grayBackground {
+    color: #938373;
+}

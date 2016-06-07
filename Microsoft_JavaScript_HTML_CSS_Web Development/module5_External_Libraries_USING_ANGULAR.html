@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en-US" ng-app="listApp"> <!--setting the ng-app attribute to a value of listApp-->
+
+	<head>
+		<title>HTML Page</title>
+<!--add a new script element that references the Angular JavaScript file hosted in Google's CDN using the following URL-->
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.2/angular.min.js"></script>   
+		<script type="text/javascript" src="js/script15.js"></script>
+	</head>
+
+<!--created an ordered list to show text items. We are also creating a form to add new items to the list.-->
+	<body ng-controller="listController"> <!--setting the ng-controller attribute to a value of listController-->
+	    <h1>List of Items</h1>
+	    <hr />
+	    <ol>
+	        <li ng-repeat="item in items"> <!--adding a ng-repeat attribute with the value set to item in items-->
+	        	    {{item}}   <!-- element in list items which defined in javascript-->
+	        </li>
+	    </ol>
+	    <hr />
+	    <form>
+	        <fieldset>
+	            <legend>Add New Item</legend>
+	            <input type="text" ng-model="newItem" placeholder="Item Text" />
+	            <button ng-click="addItem()">&#43;</button>
+	        </fieldset>
+	    </form>
+	</body>
+</html>

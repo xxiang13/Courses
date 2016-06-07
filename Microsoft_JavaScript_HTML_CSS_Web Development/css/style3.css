@@ -1,0 +1,5 @@
+article, section {
+border: thin black solid;
+margin: 10px 20px; /* between html elements */
+padding: 20px 10px; /* within html elements */
+}

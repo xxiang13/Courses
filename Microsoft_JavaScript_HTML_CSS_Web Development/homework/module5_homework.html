@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+
+        <!-- You now have formatted multiple elements on your HTML page using the built-in Bootstrap CSS classes. These classes can format both inline and box elements on your web page. 
+
+        Using the Bootstrap grid layout, you can implement a responsive web page without having to write a lot of custom CSS. The 12-column grid is very easy to understand and can be used in a lot of flexible ways.
+        
+        Using the Bootstrap JavaScript components, you can implement common web page components such as accordions, carousels or modals without the need to write a lot of custom JavaScript logic.
+
+        Maximize your browser window.
+        Observe that the articles are laid our horizontally in your browser.
+        Observe that the form has a large amount of space to either side.
+        Resize your browser until the window is very narrow.
+        Observe that the articles are laid our vertically in your browser.
+        Observe that the form takes up all available horizontal space.
+        Close your browser and return to Visual Studio Code.
+        
+        -->
+
+        <title>HTML Page</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="css/style12.css" />
+
+    </head>
+    <header>
+            <h1>Contoso News</h1>
+        <h2>On Time, On Topic</h2>
+    </header>
+
+    <body  class="container">
+        <!--a reference to both the carousel and slide CSS classes -->
+        <section id="carousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner" role="listbox">
+                <figure class="item active">
+                    <img src="img/mod4_efficient_cars.png"  alt="Efficient Cars" class="img-responsive center-block" />
+                    <figcaption class = "carousel-caption">2017 Cars Promise to be More Fuel Efficient Than Ever</figcaption>
+                </figure>
+                <figure class="item">
+                    <img src="img/mod4_natural_disaster.png" alt="Natural Disaster"  class="img-responsive center-block" />
+                    <figcaption class = "carousel-caption">Hurricane Threatens to Touch Down on the East Coast This Weekend</figcaption>
+                </figure>
+                <figure class="item">
+                    <img src="img/mod4_health_records.png" alt="Health Records" class="img-responsive center-block" />
+                    <figcaption class = "carousel-caption">Many Doctors are Moving to Digital Health Records This Year</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <main class="row">
+            <h3>Latest Articles</h3>
+            <!--This Bootstrap class lays out this element using 4 columns as long as the display is medium size (large tablet) or bigger. Bootstrap uses a 12-column system so this element will effectively take 1/3 of the available space. -->
+          
+            <article class="well col-md-4">
+                <time datetime="16-01-2016">Friday, Jan 16</time> <!--The time element simply renders it's child content to the browser without any modification. You can use this to display the date. The time element also includes a datetime attribute that allows you to include more-specific data that is machine-readable.-->
+                <h4>International Story</h4> 
+                <p>
+                   Curabitur pharetra luctus augue, non posuere orci tristique vel. Sed posuere nisi nec lacus ullamcorper, ac vulputate nisl consequat. Nullam sollicitudin nulla vel felis faucibus aliquam. Nunc sit amet velit orci. Proin sed orci fringilla, elementum felis condimentum, convallis augue. Aliquam erat volutpat. Mauris tempus nunc sit amet aliquet bibendum. Praesent vestibulum cursus ex, quis laoreet eros consectetur ac. Ut congue libero quis mauris egestas feugiat. Sed pharetra lorem et magna fringilla, a volutpat nibh sollicitudin. Nullam sagittis sollicitudin urna, sed sollicitudin mauris ornare id.
+                   <a href="#" target="_blank">Read More...</a> 
+                </p> 
+            </article> 
+
+             <article class="well col-md-4">
+                <time datetime="14-01-2016">Wednesday, Jan 14</time> 
+                <h4>Finance Story</h4> 
+                <p>
+                    Nullam tempor mi at libero elementum varius. Sed lobortis lacus feugiat est tristique, nec imperdiet turpis scelerisque. Ut sed urna malesuada, scelerisque dui sit amet, tempus mauris. Integer bibendum egestas urna, a bibendum sem gravida quis. Cras accumsan rhoncus vestibulum. Nam eu blandit leo. Integer at consectetur nunc, et tempus urna. Integer sit amet sollicitudin elit. Donec nec posuere erat. Sed vestibulum nisl neque, vitae tincidunt ex molestie quis. Nulla fringilla viverra turpis in volutpat. Cras vel orci quis velit efficitur ullamcorper sed eu ex.
+                </p>
+
+                <figure>
+                    <img src="img/chip_debit.png" alt="Debit Card with Chip" />
+                    <figcaption>New Debit Cards with Chip-Based Security</figcaption> <!--The figcaption element is used for text that describes the image in the figure element-->
+                </figure>
+                <p>
+                    Nullam vel ex nec lectus imperdiet luctus vitae vel nibh. Donec eleifend velit eros, eu efficitur justo molestie id. In egestas gravida lectus. Ut ipsum odio, suscipit sit amet molestie non, scelerisque sed mi. Aenean sed augue eu arcu faucibus molestie. Sed eget ante gravida, rhoncus velit eu, tempus quam. Sed fermentum at odio sed commodo. Fusce lobortis cursus purus, quis consequat est faucibus at. Etiam massa felis, sodales at sodales sed, iaculis quis arcu.
+                    <a href="#" target="_blank">Read More...</a>
+                </p> 
+            </article> 
+
+            <article class="well col-md-4">
+                <time datetime="14-01-2016">Wednesday, Jan 14</time> 
+                <h4>Technology Story</h4> 
+                <p>
+                     Morbi eget justo ut velit dapibus malesuada. Nunc elementum, neque quis convallis tempus, lacus ante tristique est, id porta tortor leo eget orci. Suspendisse hendrerit interdum lacus et condimentum. Mauris at ex dignissim, bibendum libero at, fermentum lectus. Maecenas porttitor purus quis augue interdum, eget malesuada neque placerat. Ut hendrerit risus in nibh elementum, quis vestibulum ipsum vulputate. Nulla facilisi. In consectetur et lacus vel tincidunt. Quisque feugiat ipsum et erat rhoncus efficitur. In in augue at enim tempor sollicitudin.
+                     <a href="#" target="_blank">Read More...</a>
+                </p> 
+            </article> 
+
+        </main>
+        
+        <div class="panel-heading">Sign Up For Our Emails</div> <!--adding a reference to the CSS class panel-heading -->
+        
+        <!--The offset Bootstrap classes allows you to "skip" columns when laying out an element. In this example, the first two columns are skipped, then the element uses 8 columns and finally the last two columns are skipped to make 12 columns total.-->
+        <summary class="panel panel-default col-md-8 col-md-offset-2"> <!--adding references to both the CSS classes panel and panel-default -->
+            <h4>Sign Up For Our Emails</h4>
+            <form class="form-horizontal panel-body">  
+                <label>E-Mail Address: </label>
+                <input type="text" required="required" />
+                <label>Delivery Preference: </label>
+                <select>
+                    <option>Daily</option>
+                    <option>Weekly</option>
+                    <option>Monthly</option>
+                </select>
+                <input type="submit" value="Sign-Up" />
+            </form>
+        </summary>
+
+    </body>
+</html>

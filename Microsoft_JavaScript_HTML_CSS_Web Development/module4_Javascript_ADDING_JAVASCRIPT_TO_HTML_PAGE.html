@@ -1,0 +1,22 @@
+<body>
+    <header id="headerItem">
+        Old Header
+    </header>
+    <section>
+        <button onclick="clickHandler()">Click Here</button> <!--update the element by setting the onclick attribute to a value of clickHandler()-->
+    </section>
+
+	<script type="text/javascript">
+		function startLogic() {
+		    var newHtml = '<em>New Header</em>';
+		    document.getElementById('headerItem').innerHTML = newHtml;
+		}
+
+		startLogic(); //This line will call the startLogic method immediately.
+
+		function clickHandler() {
+		alert('You clicked me!');
+		}
+	</script>
+
+</body>

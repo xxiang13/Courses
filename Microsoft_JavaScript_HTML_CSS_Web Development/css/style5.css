@@ -1,0 +1,44 @@
+body {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;       
+background-color: #506566;
+}
+aside {
+background-color: #23354B;
+color: #CDB09E;
+padding: 25px;
+margin: 5px;
+}
+
+nav {
+display: flex; /*nav selector to enable flexbox layout*/
+}
+
+nav > aside {   /*give each aside element equal space in the flexbox layout*/
+flex: 1;  
+}
+
+/*Observe that the elements are now laid out horizontally instead of vertically. 
+> This is great for desktop browsers, but we want to create a mobile-friendly layout. 
+We will now use media queries to lay out the elements vertically for specific screen resolutions.*/
+
+@media (max-width: 750px) {
+nav {
+    display: block;
+}
+}
+
+@media print {
+nav {
+    display: block;
+}
+body {
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+aside {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    margin: 5px;
+}
+}
